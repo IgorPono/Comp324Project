@@ -29,6 +29,12 @@ nav{
     text-align: center; 
 }
 
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 nav ul li{
     display: inline-block;
     align-items: center;
@@ -45,15 +51,16 @@ nav ul li a{
 
 nav ul li a::after{
     content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
     width: 0;
     height: 3px;
-    background: #ff004f;
-    position: absolute;
-    left: 0;
-    bottom: -6px;
-    transition: 0.5s;
+    background: #ffff;
+    transition: 0.4s;
 }
 
 nav ul li a:hover::after{
     width: 100%;
+    left: 0;
 }
