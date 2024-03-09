@@ -6,11 +6,16 @@
 }
 body{
     background: #696969;
+    background-image: url(/images/vintage_computers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position: center top;
 }
 
 #header{ /* # indicates specific id of an element */
     width: 100%;
-    height: 100vh;
+    height: 92vh;
 }
 .container{
     padding: 10px 10%;
@@ -63,4 +68,26 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
     left: 0;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.website-icons-footer{
+    margin-top: 20px;
+}
+
+.website-icons-footer a{
+    font-size: 40px;
+    color:#333;
+    margin-right: 15px;
+    display: inline-block;
+
 }

@@ -1,6 +1,11 @@
 #header{ /* #override universal header element*/
     width: 100%;
     height: 30vh;
+    background: none;
+}
+
+#contact-body{
+    background: #696969;
 }
 
 .content-title{
