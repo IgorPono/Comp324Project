@@ -8,19 +8,22 @@
     background-image: none;
 }
 
+#projects-container {
+    padding: 10px 10%;
+}
+
 .projects-content-row{
         padding: 10px 10%;
         border-bottom: 1px solid #ccc;
 }
 
 .projects-content-row:last-child{
-    border-bottom: none
+    border-bottom: 1px solid #ccc;
 }
 
 .repo-description{
     margin-left: 10px; 
 }
-
 
 .repo-container{
     display: flex;
