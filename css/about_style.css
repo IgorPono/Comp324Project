@@ -5,3 +5,22 @@
 #experiences-container {
     background-image: none;
 }
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#about-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+}
+
+#about-content img{
+    margin-right: 100px;
+}
+

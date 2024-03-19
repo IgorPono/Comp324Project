@@ -4,13 +4,10 @@
     font-family: 'sans-serif'; /*Try different fonts*/
     box-sizing: border-box /*Total size of an element includes padding*/
 }
+
+
 body{
     background: #696969;
-    background-image: url(/images/vintage_computers_upscaled.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-position: center top;
 }
 
 #header{ /* # indicates specific id of an element */
@@ -90,4 +87,17 @@ footer {
     margin-right: 15px;
     display: inline-block;
 
+}
+
+#background-image {
+    position: fixed;
+    top: 3%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/vintage_computers_upscaled.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
 }

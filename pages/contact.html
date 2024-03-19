@@ -25,7 +25,7 @@
 <section id ="contact">
     <article class ="container">
         <div class = "row">
-            <div class = "left-col">
+            <div class = "left-contact">
                 <h1 class ="content-title"> Contact Me</h1>
                 <p class ="contact-info"><i class ="fas fa-paper-plane"></i>temp@gmail.com</p>
                 <p class = "contact-info"><i class="fa-solid fa-phone"></i>123-456-7890</p>
@@ -33,10 +33,10 @@
                     <a href = "https://github.com/IgorPono"><i class="fa-brands fa-github"></i></a> 
                     <a href = "https://www.linkedin.com/in/igor-ponomarenko-43838922b/"><i class="fa-brands fa-linkedin"></i></a> 
                 </div>
-                <a href = "" class = "dl-btn"> Download Resume</a>
+                <a href = "/images/IgorPonomarenkoResume 3_12.pdf" download class = "dl-btn"> Download Resume</a>
             </div>
-            <div class = "right-col">
-                <form>
+            <div class = "right-contact">
+                <form id ="contact-form">
                     <input type = "text" name ="Name" placeholder ="Your Name" required>
                     <input type = "email" name ="email" placeholder ="Your Email" required>
                     <textarea name = "Message" rows = "6" placeholder ="Your Message"></textarea>
@@ -46,5 +46,10 @@
         </div>
     </article>
 </section>
+
+
+<script src="/js/formJson.js" defer></script>
+
+
 </body>
 </html>
