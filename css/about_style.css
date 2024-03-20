@@ -6,21 +6,62 @@
     background-image: none;
 }
 
-.banner{
+.about-banner{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    font-size: 50px;
 }
+
+.section-header{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
 
 #about-content{
     display: flex;
-    justify-content:center;
-    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
     margin: 50px;
+    padding: 80px 0;
+    
 }
 
 #about-content img{
-    margin-right: 100px;
+    flex-basis: 35%;
+    margin-left: 10x;
+    margin-right: 0px;
+    border-radius: 20px;
+}
+
+#right-about{
+    flex-basis: 60%;
+}
+
+#about-content p {
+    font-size: 30px;
+    line-height: 3;
+}
+
+#experience-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.experience-details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.experience-description{
+    flex-grow: 1;
+
 }
 
