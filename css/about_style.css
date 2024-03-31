@@ -6,6 +6,11 @@
     background-image: none;
 }
 
+#about-body{
+    position: relative;
+    padding-bottom: 60px;
+}
+
 .about-banner{
     display: flex;
     justify-content: center;
