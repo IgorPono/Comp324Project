@@ -15,21 +15,22 @@
 }
 
 #projects-container > *:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .projects-content-row{
         padding: 10px 10%;
         border: 1px solid #ccc;
         border-radius: 20px;
+        margin: 50px;
 }
 
 
 .repo-description{
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 10px; 
-    line-height:2;
+    line-height:3;
 }
 
 .repo-container{
