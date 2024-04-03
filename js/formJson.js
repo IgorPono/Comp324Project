@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: jsonData,
+            body: jsonData //attaching data generated from form to request body
         })
 
         event.target.reset();
