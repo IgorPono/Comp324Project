@@ -11,5 +11,6 @@
 3/18 - Convert contact form to json, home background adjustments, minor css refactoring\
 3/29 - Major work on about page content and style\
 3/30 - Work on Projects and Contact pages styling, adjustments on font and removal of unnecessary images \
-4/1.1 - Further fleshing out website style
-4/1.2 - Setting up node server and experimenting with post call and MongoDB connection
+4/1.1 - Further fleshing out website style \
+4/1.2 - Setting up node server and experimenting with post call and MongoDB connection \
+4/3 - Node server functionality added, store completed json forms in MongoDB database
