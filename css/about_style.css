@@ -53,28 +53,36 @@
 }
 
 #about-content p {
-    color: #1f1f1f;
+    color: #bdbdbd;
     font-size: 25px;
     line-height: 3;
 }
 
 #experience-container {
-    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(75, 72, 72);
+    margin: 50px;
+    border-radius: 20px;
     margin-bottom: 75px;
 }
 
 .experience {
+    background-color: #696969;
+    border-radius: 20px;
     margin: 50px;
     display: flex;
     font-size: 30px;
     align-items: center;
     color: #1f1f1f;
-    border: 1px solid black;
+    
     border-radius: 20px;
 }
 
 
 .experience-details{
+    background-color: rgb(75, 72, 72);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin: 100px;
@@ -82,24 +90,32 @@
 
 .experience-details p{
     margin: 40px;
+    line-height: 2.5;
+    font-size:35px;
+    color: #bdbdbd;
 }
 
 .experience-description{
+    color: #bdbdbd;
     line-height: 3;
     flex: 1;
     flex-basis: 60%;
     margin-top: auto;
     margin-bottom:auto;
+    padding-right: 10px;
 }
 
 
 
 .education-row{
+    padding: 15px;
+    padding-top: 30px;
+    background-color: rgb(75, 72, 72);
+    border-radius: 20px;
     display: flex;
     font-size: 30px;
-    border: 1px solid red;
     margin: 50px;
-    color: #1f1f1f;
+    color: #bdbdbd;
 }
 
 .institution{
@@ -114,7 +130,6 @@
 }
 
 .degree{
-    border: 1px solid pink;
     flex-basis: 60%;
     flex: 1;
     display: flex;

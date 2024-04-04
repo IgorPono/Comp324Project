@@ -9,7 +9,7 @@
 }
 
 .content-title{
-    font-size: 60px;
+    font-size: 45px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -64,7 +64,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 66px 2px;
+    margin: 81px 2px; /* adjust this when changing header font*/
     cursor: pointer;
     border-radius: 10px;
     transition-duration: 0.25s;

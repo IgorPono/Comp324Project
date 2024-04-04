@@ -20,18 +20,19 @@
 
 .projects-content-row{
         padding: 10px 10%;
-        border: 1px solid #ccc;
+        background-color: rgb(75, 72, 72);
         border-radius: 20px;
         margin: 50px;
 }
 
 
 .repo-description{
-    border: 1px solid black;
     font-size: 25px;
     margin-left: 10px; 
     line-height:3;
+    color: #bdbdbd;
 }
+
 
 .repo-container{
     display: flex;
