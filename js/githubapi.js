@@ -43,15 +43,31 @@ fetchUserRepositories()
             const contentRow = document.createElement('section');
             contentRow.classList.add('projects-content-row');
 
+
+            
+
+            const headerLink = document.createElement('a');
+            headerLink.classList.add('project-header');
+            headerLink.setAttribute('href', repo.html_url);
+           
+
+            const header = document.createElement('h2');
+            header.textContent = repo.name;
+
+            headerLink.appendChild(header);
+
+            contentRow.appendChild(headerLink);
+
+
             const repoSection = document.createElement('section');
             repoSection.classList.add('repo-container')
 
-            const repoImage = document.createElement('img');
+            /*const repoImage = document.createElement('img');
             repoImage.setAttribute('src', repositoryImages[0]); // Placeholder image
             repoImage.setAttribute('alt', repo.name + ' Image');
             repoImage.setAttribute('width', '100');
 
-            repoSection.appendChild(repoImage);
+            repoSection.appendChild(repoImage);*/
 
             const repoDescription = document.createElement('p');
             repoDescription.textContent = repositoryDescriptions[index]; 
@@ -61,11 +77,11 @@ fetchUserRepositories()
 
             contentRow.appendChild(repoSection);
 
-            const repoLink = document.createElement('a');
+            /*const repoLink = document.createElement('a');
             repoLink.setAttribute('href', repo.html_url);
             repoLink.textContent = repo.name;
 
-            contentRow.appendChild(repoLink);
+            contentRow.appendChild(repoLink);*/
 
             projectsContainer.appendChild(contentRow);
            
