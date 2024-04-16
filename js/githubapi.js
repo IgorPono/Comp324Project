@@ -10,10 +10,10 @@ const repositoryImages = [
 ]
 
 const repositoryDescriptions = [
-    'Operating System Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-    'Website Project Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-    'Discord Bot Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-    'Android Timer Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+    '32 Bit operating system based on the i386 PC using a combination of C and assembly. Ran using QEMU emulator. OS contains drivers for terminal writing, I/O polling, virtual memory and fat filesystem',
+    'Personal resume website written using html/css/javascript. Connects to MongoDB database to store users contact forms as json',
+    'Using Discord API, created an automated user that plays back YouTube audio in public void channel. Written in Python. Utilized FFmpeg to process and convert audio',
+    'Android Timer app using Java. Worked on to gain experience in coding for phone applications and made using various software enginnering practices such as composite, visitor and state patterns'
 ]
 
 const apiUrl = `https://api.github.com/users/${username}/repos`;
@@ -44,14 +44,13 @@ fetchUserRepositories()
             contentRow.classList.add('projects-content-row');
 
 
-            
-
             const headerLink = document.createElement('a');
-            headerLink.classList.add('project-header');
+            headerLink.classList.add('project-header-link');
             headerLink.setAttribute('href', repo.html_url);
            
 
             const header = document.createElement('h2');
+            header.classList.add('project-header');
             header.textContent = repo.name;
 
             headerLink.appendChild(header);

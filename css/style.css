@@ -11,13 +11,13 @@ body{
 }
 
 h1{
-    font-family: 'Courier Prime', Courier, monospace;
+    font-family: 'Monaco', monospace;
     color: #e0e0e0;
 }
 
 h2{
     font-size: 45px;
-    font-family: 'Courier Prime', Courier, monospace;
+    font-family: 'Monaco', monospace;
     color: #e0e0e0;
 }
 
@@ -40,7 +40,8 @@ nav{
     color: #E0e0e0; 
     font-weight: bold; 
     text-align: center; 
-    font-family: 'Courier Prime', Courier, monospace;
+    font-family: 'Monaco', monospace;
+
 }
 
 .row{

@@ -61,14 +61,13 @@
 #experience-container {
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: rgb(75, 72, 72);
     margin: 50px;
     border-radius: 20px;
     margin-bottom: 75px;
 }
 
 .experience {
-    background-color: #696969;
+    background-color: rgb(75, 72, 72);
     border-radius: 20px;
     margin: 50px;
     display: flex;
@@ -81,17 +80,19 @@
 
 
 .experience-details{
-    background-color: rgb(75, 72, 72);
+    background-color: rgb(90,89.5,89.5);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin: 100px;
+    max-width:350px;
 }
 
 .experience-details p{
+    text-align:center;
     margin: 40px;
     line-height: 2.5;
-    font-size:35px;
+    font-size:25px;
     color: #bdbdbd;
 }
 
