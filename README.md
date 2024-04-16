@@ -13,4 +13,5 @@
 3/30 - Work on Projects and Contact pages styling, adjustments on font and removal of unnecessary images \
 4/1.1 - Further fleshing out website style \
 4/1.2 - Setting up node server and experimenting with post call and MongoDB connection \
-4/3 - Node server functionality added, store completed json forms in MongoDB database
+4/3 - Node server functionality added, store completed json forms in MongoDB database \
+4/16 - Replace use of div with semantic markup, flesh out styling and begin to remove placeholder content
