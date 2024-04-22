@@ -1,73 +1,76 @@
-*{ /*universal header, will target all elements on webpage */
+* {
+    /*universal header, will target all elements on webpage */
     margin: 0;
     padding: 0;
     font-family: 'Source Code Pro', monospace;
-    box-sizing: border-box /*Total size of an element includes padding*/
+    box-sizing: border-box
+        /*Total size of an element includes padding*/
 }
 
 
-body{
+body {
     background: #696969;
 }
 
-h1{
+h1 {
     font-family: 'Monaco', monospace;
     color: #e0e0e0;
 }
 
-h2{
+h2 {
     font-size: 45px;
     font-family: 'Monaco', monospace;
     color: #e0e0e0;
 }
 
-#index-header{
+#index-header {
     width: 100%;
     height: 92vh;
 }
-.container{
+
+.container {
     padding: 10px 10%;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .name {
-    font-size: 48px; 
-    color: #E0e0e0; 
-    font-weight: bold; 
-    text-align: center; 
+    font-size: 48px;
+    color: #E0e0e0;
+    font-weight: bold;
+    text-align: center;
     font-family: 'Monaco', monospace;
 
 }
 
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     align-items: center;
     list-style: none;
     margin: 10px 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: #f5f5f5;
-    text-decoration:none;
+    text-decoration: none;
     font-size: 18px;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
-    
+
 }
 
 
-nav ul li a::after{
+nav ul li a::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -78,7 +81,7 @@ nav ul li a::after{
     transition: 0.4s;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
     width: 100%;
     left: 0;
 }
@@ -93,20 +96,20 @@ footer {
     padding: 10px 20px;
 }
 
-.website-icons-footer{
+.website-icons-footer {
     margin-top: 20px;
 }
 
-.website-icons-footer a{
+.website-icons-footer a {
     font-size: 40px;
-    color:#BDBDBD;
+    color: #BDBDBD;
     margin-right: 15px;
     display: inline-block;
     transition: 0.25s;
 
 }
 
-.website-icons-footer a:hover{
+.website-icons-footer a:hover {
     color: #ffffff;
     transform: translateY(-5px);
 }
@@ -118,14 +121,15 @@ footer {
     width: 100%;
     height: 100%;
     background-image: url('/images/vintage_computers_upscaled.png');
-    background-size: contain;
+    background-size: 95%;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+    background-position-y: 25px;
 }
 
 
-/* about me */ 
+/* about me */
 
 #about-body {
     background-image: none;
@@ -135,13 +139,13 @@ footer {
     background-image: none;
 }
 
-#about-body{
+#about-body {
     position: relative;
     padding-bottom: 60px;
 
 }
 
-.about-banner{
+.about-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +153,7 @@ footer {
     font-size: 50px;
 }
 
-.section-header{
+.section-header {
     font-size: 50px;
     text-align: center;
     margin-bottom: 15px;
@@ -157,35 +161,36 @@ footer {
 
 
 
-#about-content{
+#about-content {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin: 50px;
-    padding: 80px 0;
+    padding: 80px 0 80px 25px;
     background-color: rgb(75, 72, 72);
     border: 1px solid rgb(70, 67, 67);
     border-radius: 20px;
-    
+
 }
 
-#about-content img{
+#about-content img {
     margin: auto;
     width: 550px;
     height: 500px;
     border-radius: 20px;
 }
 
-#right-about{
+#right-about {
     flex-basis: 60%;
-    padding-right:50px;
-    
+    padding-right: 50px;
+
 }
 
 #about-content p {
+    padding-left: 50px;
     color: #bdbdbd;
     font-size: 25px;
-    line-height: 3;
+    line-height: 2.5;
 }
 
 #experience-container {
@@ -204,41 +209,42 @@ footer {
     font-size: 30px;
     align-items: center;
     color: #1f1f1f;
-    
+
     border-radius: 20px;
 }
 
 
-.experience-details{
-    background-color: rgb(90,89.5,89.5);
+.experience-details {
+    background-color: rgb(90, 89.5, 89.5);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     margin: 100px;
-    max-width:350px;
+    max-width: 350px;
 }
 
-.experience-details p{
-    text-align:center;
+.experience-details p {
+    text-align: center;
     margin: 40px;
     line-height: 2.5;
-    font-size:25px;
+    font-size: 25px;
     color: #bdbdbd;
 }
 
-.experience-description{
+.experience-description {
+    font-size: 25px;
+    padding-right: 40px;
     color: #bdbdbd;
     line-height: 3;
     flex: 1;
     flex-basis: 60%;
     margin-top: auto;
-    margin-bottom:auto;
-    padding-right: 10px;
+    margin-bottom: auto;
 }
 
 
 
-.education-row{
+.education-row {
     padding: 15px;
     padding-top: 30px;
     background-color: rgb(75, 72, 72);
@@ -249,7 +255,7 @@ footer {
     color: #bdbdbd;
 }
 
-.institution{
+.institution {
     margin-left: 150px;
     display: flex;
     flex-direction: column;
@@ -260,7 +266,7 @@ footer {
     margin: 10px;
 }
 
-.degree{
+.degree {
     flex-basis: 60%;
     flex: 1;
     display: flex;
@@ -270,9 +276,10 @@ footer {
 
 }
 
-/* Projects */ 
+/* Projects */
 
-#projects-header{ /* #override universal header element*/
+#projects-header {
+    /* #override universal header element*/
     width: 100%;
     height: 12vh;
     background: none;
@@ -288,71 +295,72 @@ footer {
     padding: 10px 10%;
 }
 
-#projects-container > *:not(:last-child) {
+#projects-container>*:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.projects-content-row{
-        padding: 30px 10%;
-        background-color: rgb(75, 72, 72);
-        border-radius: 20px;
-        margin: 50px;
+.projects-content-row {
+    padding: 30px 10%;
+    background-color: rgb(75, 72, 72);
+    border-radius: 20px;
+    margin: 50px;
 }
 
 
-.repo-description{
+.repo-description {
     font-size: 25px;
-    margin-left: 10px; 
-    line-height:3;
+    margin-left: 10px;
+    line-height: 3;
     color: #bdbdbd;
 }
 
 
-.repo-container{
+.repo-container {
     display: flex;
     align-items: center;
 }
 
 
-.project-header{
+.project-header {
     transition-duration: 0.25s;
-    text-align: center;  
+    text-align: center;
     color: #e4e4e4;
 }
 
-.project-header:hover{
- transform: translateY(-5px);
- color: #ffffff;
+.project-header:hover {
+    transform: translateY(-5px);
+    color: #ffffff;
 }
 
-.project-header-link{
+.project-header-link {
     text-decoration: none;
-    
+
 }
 
-/* Contact */ 
+/* Contact */
 
-#header{ /* #override universal header element*/
+#header {
+    /* #override universal header element*/
     width: 100%;
     height: 30vh;
     background: none;
 }
 
-#contact-body{
+#contact-body {
     background: #696969;
 }
 
-.content-title{
+.content-title {
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.left-contact{
+.left-contact {
     flex-basis: 35%;
 }
 
-.right-contact{
+.right-contact {
     flex-basis: 60%;
 }
 
@@ -369,27 +377,27 @@ footer {
 
 
 
-.website-icons{
+.website-icons {
     margin-top: 50px;
 }
 
-.website-icons a{
+.website-icons a {
     font-size: 50px;
-    color:#BDBDBD;
+    color: #BDBDBD;
     margin-right: 15px;
     display: inline-block;
     transition: transform 0.25s;
 
 }
 
-.website-icons a:hover{
+.website-icons a:hover {
     color: #ffffff;
     transform: translateY(-5px);
 
 
 }
 
-.dl-btn{
+.dl-btn {
     background-color: #BDBDBD;
     border: none;
     color: #424242;
@@ -398,22 +406,24 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 81px 2px; /* adjust this when changing header font*/
+    margin: 81px 2px;
+    /* adjust this when changing header font*/
     cursor: pointer;
     border-radius: 10px;
     transition-duration: 0.25s;
 }
 
-.dl-btn:hover{
+.dl-btn:hover {
     background-color: #ffffff;
     color: #757575;
 }
 
-.right-col form{
+.right-col form {
     width: 100%;
 }
 
-form input, form textarea{
+form input,
+form textarea {
     width: 100%;
     border: 0;
     outline: none;
@@ -443,4 +453,4 @@ form input, form textarea{
 .submit-btn:hover {
     background-color: #ffffff;
     color: #757575;
-  }
+}
